@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: GitHub's gitignore repository contributors <github.com/github/gitignore>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
