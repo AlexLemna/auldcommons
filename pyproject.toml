@@ -21,16 +21,17 @@ dev = [
     #
     # installing dependencies
     # -----------------------
-    #
     "pip",
     "pip-tools",
     #
     # style enforcement, linting, etc.
     # -----------------------------
     # Various tools to help enforce consistency.
-    "black",
-    "isort",
-    "reuse", # <-- for copyright
+    "black",       # for code style
+    "interrogate", # for docstrings
+    "isort",       # for import statements
+    "invoke",      # for easily repeatable dev commands
+    "reuse",       # for copyright
     #
     # building the package
     # --------------------
@@ -40,7 +41,9 @@ dev = [
     #
     # testing the package
     # -------------------
-    "pytest",
+    "coverage", # makes sure we don't forget to test stuff
+    "nox",      # tests stuff across different versions of Python
+    "pytest",   # actually tests stuff
     #
     # publishing the package to PyPI
     # ------------------------------
