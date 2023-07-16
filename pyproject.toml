@@ -6,10 +6,10 @@
 name = "auldcommons"
 readme = "README.md"
 license = { text = "MIT License" }
-# urls.homepage
+urls.homepage = "https://pypi.org/project/auldcommons/"
 urls.repository = "https://github.com/AlexLemna/auldcommons"
 # urls.documentation
-# urls.changelog
+urls.changelog = "https://github.com/AlexLemna/auldcommons/blob/main/CHANGELOG.md"
 requires-python = ">= 3.10"
 dependencies = [
     # none
