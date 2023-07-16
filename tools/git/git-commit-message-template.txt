@@ -1,0 +1,68 @@
+# Your commit message must start with a title. The title's first
+# letter must be capitalized, and it must not end with a period.
+#
+# To match Git's builtin style, your title MUST be written in the
+# imperative case. Basically, it should be able to complete the 
+# sentence, "If applied, this commit will...", for example:
+#
+#   Fix a typo in somefile.txt
+#   Add feature X when Y is enabled
+#   Drop ...
+#   Fix ...
+#   Release ...
+#   Document ...
+#   Reformat ... (when it's just about style)
+#   Restructure test directories
+#
+# The title must be fewer than 50 characters, which means it'll
+# end before.........................this line.->|
+# -----------------------------------------------|
+Add your title here, following the rules above
+
+# Keep at least one blank line between the title and the start of 
+# the next section.
+
+More detailed explanatory text, if necessary. Wrap it to about 72
+characters or so. In some contexts, the first line is treated as the
+subject of the commit and the rest of the text as the body. The
+blank line separating the summary from the body is critical (unless
+you omit the body entirely); various tools like `log`, `shortlog`
+and `rebase` can get confused if you run the two together.
+
+Further paragraphs come after blank lines.
+
+- Bullet points are okay, too
+
+- Typically a hyphen or asterisk is used for the bullet, preceded
+  by a single space, with blank lines in between, but conventions
+  vary here
+
+Explain the problem that this commit is solving. Focus on why you
+are making this change as opposed to how (the code explains that).
+Are there side effects or other unintuitive consequences of this
+change? Here's the place to explain them.
+
+
+BREAKING CHANGE: A summary of the breaking change
+
+A longer description of the breaking change, along with migration
+instructions.
+
+
+DEPRECATION: What is deprecated
+
+A description of the deprecation, the reasoning, the timeline for
+removal, and the recommended update path.
+
+REFERENCES:
+
+Fixes: #123
+Fixes: #456
+Fixes: #789
+Closes: #66
+See: Description <link>
+
+CREDITS:
+
+Co-authored-by: Firstname Lastname <name@example.com>
+Sponsored-by: Strexcorp Laboratories <name@example.com>
