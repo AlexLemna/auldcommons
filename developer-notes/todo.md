@@ -8,27 +8,29 @@ SPDX-License-Identifier: CC0-1.0
 
 ## versions prior to stable release
 
-### version `0.0.1`
+### version `0.1.0`
 
-- [x] define versioning policy in `developer tasks/versioning.md`
-- [x] rename to `auldcommons`
-- [x] define license, put it in repository root and `pyproject.toml`
-    - see: [link](https://www.exygy.com/blog/which-license-should-i-use-mit-vs-apache-vs-gpl)
-- [x] add license to each file
-- [x] add README for root directory
-- [x] define all common dev tasks in `developer tasks/README.md`
-- [x] add something basic for release notes (changelog)
+- [ ] ensure pytest coverage of `AuldDict` expected behavior
+- [x] add nox
+- [x] add interrogate
+- [x] add invoke
+- [x] add coverage
+- [ ] configure invoke
 
-*Tentatively publishing on PyPI by 2023-07-16, third Sunday in July.*
+*Tentatively publishing on PyPI by 2023-07-19.*
 
-### version `0.0.2`
+### version `0.2.0` onwards
 
-- [ ] ensure pytest coverage of `AuldDict`
-- [ ] add tox
+- [ ] configure nox
+- [ ] configure interrogate
+- [ ] configure invoke
+- [ ] configure coverage
+- [ ] add sphinx
+- [ ] configure sphinx for basic usage
 
 *Tentatively publishing on PyPI by 2023-07-26, last Wednesday in July.*
 
-### version `0.1.0` onwards
+### version `0.3.0` onwards
 
 - [ ] finish `AuldDict`
 
@@ -36,8 +38,6 @@ SPDX-License-Identifier: CC0-1.0
 
 ### later versions, prior to `1.0.0`
 
-- [ ] add `interrogate` and `coverage`
-- [ ] set up `invoke`
 - [ ] setup Quarto for documentation (see: [link](https://github.com/machow/quartodoc)) (and maybe see: [link](https://stackoverflow.com/questions/10343998/sphinx-public-api-documentation))
 - [ ] add docstrings for all public API
 - [ ] generate documentation
